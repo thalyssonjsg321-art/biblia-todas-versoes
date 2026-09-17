@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Biblia" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorSecondary">@color/gold_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+</resources>
