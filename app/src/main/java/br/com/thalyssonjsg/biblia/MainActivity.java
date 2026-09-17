@@ -42,9 +42,9 @@ public class MainActivity extends Activity {
         "6 E assim terminou o primeiro capítulo da leitura demonstrativa.";
 
     @Override public void onCreate(Bundle state) {
+        super.onCreate(state);
         prefs = getSharedPreferences("biblia", MODE_PRIVATE);
         applyTheme(false);
-        super.onCreate(state);
         setContentView(R.layout.activity_main);
         content = findViewById(R.id.content);
         bottomBar = findViewById(R.id.bottomBar);
