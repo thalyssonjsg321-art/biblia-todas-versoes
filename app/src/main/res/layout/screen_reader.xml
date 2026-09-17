@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:padding="12dp"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
-    <LinearLayout android:orientation="horizontal" android:gravity="center_vertical"
-        android:layout_width="match_parent" android:layout_height="wrap_content">
-        <Spinner android:id="@+id/versionSpinner" android:layout_width="0dp" android:layout_weight="1"
-            android:layout_height="wrap_content"/>
-        <Button android:id="@+id/zoomOut" android:text="A−" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <Button android:id="@+id/zoomIn" android:text="A+" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="12dp" android:background="@color/bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@+id/versionSpinner" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" />
+        <Button android:id="@+id/zoomOut" android:text="A−" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@+id/zoomIn" android:text="A+" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </LinearLayout>
-
-    <LinearLayout android:orientation="horizontal" android:gravity="center_vertical"
-        android:layout_width="match_parent" android:layout_height="wrap_content">
-        <TextView android:id="@+id/reference" android:text="Gênesis 1"
-            android:textStyle="bold" android:textSize="18sp"
-            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
-        <Button android:id="@+id/searchButton" android:text="🔎" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/reference" android:text="Gênesis 1" android:textStyle="bold" android:textSize="18sp" android:textColor="@color/text" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" />
+        <Button android:id="@+id/searchButton" android:text="🔎" android:contentDescription="Pesquisar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </LinearLayout>
-
-    <TextView android:id="@+id/readerText"
-        android:textSize="19sp" android:lineSpacingExtra="7dp"
-        android:padding="12dp" android:textIsSelectable="true"
-        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
-
-    <LinearLayout android:gravity="center"
-        android:layout_width="match_parent" android:layout_height="wrap_content">
-        <Button android:id="@+id/highlight" android:text="🖍 Marcar" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <Button android:id="@+id/favorite" android:text="★ Favorito" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <Button android:id="@+id/list" android:text="☷ Lista" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/readerText" android:textSize="19sp" android:textColor="@color/text" android:lineSpacingExtra="7dp" android:padding="12dp" android:textIsSelectable="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/highlight" android:text="🖍 Marcar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@+id/favorite" android:text="★ Favorito" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@+id/list" android:text="☷ Lista" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>

@@ -1,1 +1,1 @@
-# Regras personalizadas, se necessárias.
+# Regras personalizadas (por enquanto, nenhuma).

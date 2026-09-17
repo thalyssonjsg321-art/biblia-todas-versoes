@@ -1,0 +1,8 @@
+<resources>
+    <color name="gold">#F4C542</color>
+    <color name="gold_dark">#D9A91E</color>
+    <color name="bg">#0B0F14</color>
+    <color name="surface">#151C24</color>
+    <color name="text">#F4F7FA</color>
+    <color name="muted">#AAB3BD</color>
+</resources>

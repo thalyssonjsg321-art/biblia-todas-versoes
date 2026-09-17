@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="?android:colorBackground">
-
-    <FrameLayout
-        android:id="@+id/content"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?android:windowBackground"/>
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/bg">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" />
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gold" />
+    <LinearLayout android:id="@+id/bottomBar" android:layout_width="match_parent"
+        android:layout_height="64dp" android:orientation="horizontal" android:background="@color/surface" />
 </LinearLayout>
