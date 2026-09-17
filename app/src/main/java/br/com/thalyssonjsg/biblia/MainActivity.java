@@ -44,7 +44,6 @@ public class MainActivity extends Activity {
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
         prefs = getSharedPreferences("biblia", MODE_PRIVATE);
-        applyTheme(false);
         setContentView(R.layout.activity_main);
         content = findViewById(R.id.content);
         bottomBar = findViewById(R.id.bottomBar);
@@ -53,8 +52,6 @@ public class MainActivity extends Activity {
     }
 
     private void applyTheme(boolean recreate) {
-        boolean dark = prefs != null && prefs.getBoolean("dark", false);
-        setTheme(dark ? android.R.style.Theme_Material_NoActionBar : android.R.style.Theme_Material_Light_NoActionBar);
         if (recreate && !isFinishing()) recreate();
     }
 
