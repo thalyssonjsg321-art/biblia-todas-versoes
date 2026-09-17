@@ -1,7 +1,7 @@
 # Bíblia Todas Versões
 
-Versão 1.1.0 — base Android simples e compatível, sem dependências de UI externas.
+Versão 1.1.1 — correção do recurso de cor da dica do campo de pesquisa.
 
-O aplicativo contém conteúdo demonstrativo de Gênesis 1. Para distribuir textos completos de traduções, use somente conteúdo de domínio público ou devidamente licenciado/autorizado.
+Este projeto usa somente APIs Android no código da tela e não inclui textos bíblicos completos. Adicione apenas textos de domínio público ou devidamente licenciados.
 
-APK de debug é gerado pelo GitHub Actions no artefato `biblia-debug-apk-v1-1`.
+Crédito: App criado por Thalyssonjsg
